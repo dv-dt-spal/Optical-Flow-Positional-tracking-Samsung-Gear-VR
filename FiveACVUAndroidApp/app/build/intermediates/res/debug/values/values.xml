@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CameraBridgeViewBase"><attr format="boolean" name="show_fps"/><attr format="integer" name="camera_id"><enum name="any" value="-1"/><enum name="back" value="99"/><enum name="front" value="98"/></attr></declare-styleable>
+    <!-- From: file:/H:/LearningOpenCV/FiveACVU/AndroidApplication/V003/FiveACVUAndroidApp/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/H:/LearningOpenCV/FiveACVU/AndroidApplication/V003/FiveACVUAndroidApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">FiveACVU</string>
+    <string description="The Brightness button text" name="brightness" project="vr-lib">Brightness</string>
+    <string description="Comfort Mode is Off. Comfort Mode adds a blue hue to the screen for additional eye comfort during longer usage sessions" name="comfort_mode_off" project="vr-lib">Comfort Mode: Off</string>
+    <string description="Comfort Mode is On. Comfort Mode adds a blue hue to the screen for additional eye comfort during longer usage sessions." name="comfort_mode_on" project="vr-lib">Comfort Mode: On</string>
+    <string description="Do Not Disturb mode is Off. In Do Not Disturb mode, we disable incoming calls, text messages and other phone-related notifications." name="do_not_disturb_off" project="vr-lib">Do Not Disturb: Off</string>
+    <string description="Do Not Disturb mode is On. In Do Not Disturb mode, we disable incoming calls, text messages and other phone-related notifications." name="do_not_disturb_on" project="vr-lib">Do Not Disturb: On</string>
+    <string description="Title for Exit to Oculus Home prompt" name="exit_to_home" project="vr-lib">Exit to Oculus Home?</string>
+    <!-- From: file:/H:/LearningOpenCV/FiveACVU/AndroidApplication/V003/FiveACVUAndroidApp/app/src/main/res/values/assets.xml -->
+    <eat-comment/>
+    <string name="font_name">efigs.fnt</string>
+    <!-- From: file:/H:/LearningOpenCV/FiveACVU/AndroidApplication/V003/FiveACVUAndroidApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string description="Body 1 for health and safety warning prompt" name="health_safty_warning_description1" project="vr-lib">Read and follow all warnings and instructions included with the Gear VR before use. Gear VR should be calibrated for each user. Not for use by children under 13. Remain seated or stationary when using the Gear VR. Stop use if you experience any discomfort or health reactions.</string>
+    <string description="Body 2 for health and safety warning prompt" name="health_safty_warning_description2" project="vr-lib">More at oculus.com/warnings</string>
+    <string description="Body 3 for health and safety warning prompt" name="health_safty_warning_description3" project="vr-lib">Tap the touchpad to acknowledge.</string>
+    <string description="Title for health and safety warning prompt" name="health_safty_warning_title" project="vr-lib">HEALTH \u0026 SAFETY WARNING!</string>
+    <string name="hello_world">Hello world!</string>
+    <string description="Warning when device reaches Level 1 thermal limit" name="instr1_cool_down_l1" project="vr-lib">Your Gear VR needs to cool down to maintain optimal performance.</string>
+    <string description="Warning when device reaches Level 1 thermal limit" name="instr2_cool_down_l1" project="vr-lib">Tap to dismiss this notification.</string>
+    <string description="Tutorial instruction for back button" name="instr_back_btn" project="vr-lib">Press the Back button.</string>
+    <string description="Tutorial instruction for Brightness slider" name="instr_brightness" project="vr-lib">Controls the brightness of your screen.</string>
+    <string description="Tutorial instruction for Comfort Mode toggle button" name="instr_comfort_mode" project="vr-lib">Changes your screen\'s color palette to a warmer look.</string>
+    <string description="Warning when device reaches Level 2 thermal limit" name="instr_cool_down_l2" project="vr-lib">Please remove your mobile device and let it cool down before resuming.</string>
+    <string description="Tutorial instruction for Do Not Disturb toggle button" name="instr_do_not_disturb" project="vr-lib">Blocks phone call and text message interruptions.</string>
+    <string description="Tutorial instruction for Oculus Home button" name="instr_home" project="vr-lib">Takes you to Oculus Home.</string>
+    <string description="Tutorial instruction for Passthrough Camera toggle button" name="instr_passthrough_camera" project="vr-lib">Toggles the external camera view.</string>
+    <string description="Tutorial instruction to reach global menu from any where" name="instr_reaching_global_menu" project="vr-lib">Remember, you can reach this at any time by holding the Back button. Gaze over each of the items below to continue.</string>
+    <string description="Tutorial instruction for Reorient button" name="instr_reorient" project="vr-lib">Centers your screen to the direction you\'re facing.</string>
+    <string description="negative response in prompts" name="no" project="vr-lib">No</string>
+    <string description="The Oculus Home button text" name="oculus_home" project="vr-lib">Oculus Home</string>
+    <string description="Passthrough Camera is Off. Passthrough will let people use the rear-facing camera to see the world outside of the headset." name="passthrough_camera_off" project="vr-lib">Passthrough Camera: Off</string>
+    <string description="Passthrough Camera is On. Passthrough will let people use the rear-facing camera to see the world outside of the headset." name="passthrough_camera_on" project="vr-lib">Passthrough Camera: On</string>
+    <string description="The Reorient button text" name="reorient" project="vr-lib">Reorient</string>
+    <string description="This is a tooltip that tells the user they can swipe on the touchpad to browse through folders. It is accompanied by arrows indicated the direction to swipe." name="swipe_to_browse" project="vr-lib">Swipe to Browse</string>
+    <string name="title_activity_vr">VRActivity</string>
+    <string description="Tutorial instruction for back button" name="title_back_btn" project="vr-lib">Let\'s go back.</string>
+    <string description="Tutorial instruction title for Brightness slider" name="title_brightness" project="vr-lib">BRIGHTNESS</string>
+    <string description="Tutorial instruction title for Comfort Mode toggle button" name="title_comfort_mode" project="vr-lib">COMFORT MODE</string>
+    <string description="Tutorial instruction title for Do Not Disturb toggle button" name="title_do_not_disturb" project="vr-lib">DO NOT DISTURB</string>
+    <string description="Tutorial instruction title for Oculus Home button" name="title_home" project="vr-lib">HOME</string>
+    <string description="Tutorial instruction title for Passthrough Camera toggle button" name="title_passthrough_camera" project="vr-lib">PASSTHROUGH CAMERA</string>
+    <string description="Tutorial instruction title for Reorient button" name="title_reorient" project="vr-lib">REORIENT</string>
+    <string description="positive response in prompts" name="yes" project="vr-lib">Yes</string>
+    <!-- From: file:/H:/LearningOpenCV/FiveACVU/AndroidApplication/V003/FiveACVUAndroidApp/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
